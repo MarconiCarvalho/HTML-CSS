@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h1{
+    text-align: center;
+    border:1px solid red;
+    margin: 200px;
+    padding: 60px;
+}
+p#primeiro{
+    background-color:silver;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* "Seletor Universal" = *{}*/
+*{
+    background-color:cyan;
+}
+
+H1, h2{
+    margin:3;
+    background-color: red;
+}
+p{
+   background-color: blueviolet;
+}
