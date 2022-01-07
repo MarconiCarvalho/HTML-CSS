@@ -1,8 +1,8 @@
-html{
+html {
     font-family: "open Sans", sans-serif;
 }
 
-body{
+body {
     margin: 0;
 
 }
@@ -14,16 +14,18 @@ h1, h2, h3, h4, h5, p, span{
 .container {
     max-width: 1920px;
     width: 100%;
+ 
 }
 /*header*/
-header{
+header {
     position:relative;
     top:0;
     height: auto;
     width: 100%;
+
 } 
 /* navbar*/
-nav{
+nav {
     position:fixed;
     top:0;
     height: 100px;
@@ -32,39 +34,40 @@ nav{
     background-color: #fff;
     border-bottom: 1px solid #ccc;
 }
-nav:after{
+nav:after {
     clear: both;
     content: "";
     display: block;
 }
-.nav-container{
+.nav-container {
     max-width: 1200px;
     position: relative;
     margin-right: auto;
-    margin-left: auto;    
+    margin-left: auto;   
+    
 }
-#logo{
+#logo {
     width: 50px;
     height: 50px;
     margin-top: 25px;
 }
 
-.nav-container ul{
-    float:right;
+.nav-container ul {
+    float: right;
     height: 100px;
     line-height: 100px;
-    margin: 0px;
+    margin: 0;
 }
-.nav-container li{
+.nav-container li {
     list-style: none;
     float: left;
     margin: 0 15px;
 }
-nav-container li a{
+nav-container li a {
     text-decoration: none;
     color: #666;
     transition: .5s;
 }
-nav.container li a:houver{
+nav.container li a:houver {
    color: #3381F3;
 }
